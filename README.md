@@ -1,13 +1,16 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7681774&assignment_repo_type=AssignmentRepo)
 # Nome do projeto
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+
+Apesar do estágio ser de extrema importância para os estudantes e de grande interesse para as empresas, o processo de procura do estágio pode acarretar em diversos problemas, como conflitos de horários, dificuldade de encontrar vagas, etc...
+Logo, nosso grupo visa em criar uma ferramenta que iria tornar a busca de estágio mais simples e eficaz para estudantes e empresários.
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+*Luca Rivadavia Santos Machado
+*Gabriel Fernandez y Castro
+*Pedro Drumond Malta de Souza
+*Fernando Valle Gusmão
+*Igor Wakabayashi Braga
 
 ## Professores responsáveis
 

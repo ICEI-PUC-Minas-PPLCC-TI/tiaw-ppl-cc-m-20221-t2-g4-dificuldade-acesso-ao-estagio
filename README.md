@@ -6,15 +6,11 @@ Logo, nosso grupo visa em criar uma ferramenta que iria tornar a busca de estág
 
 ## Alunos integrantes da equipe
 
-*Luca Rivadavia Santos Machado 
-
-*Gabriel Fernandez y Castro
-
-*Pedro Drumond Malta de Souza
-
-*Fernando Valle Gusmão
-
-*Igor Wakabayashi Braga
+* Luca Rivadavia Santos Machado 
+* Gabriel Fernandez y Castro
+* Pedro Drumond Malta de Souza
+* Fernando Valle Gusmão
+* Igor Wakabayashi Braga
 
 ## Professores responsáveis
 

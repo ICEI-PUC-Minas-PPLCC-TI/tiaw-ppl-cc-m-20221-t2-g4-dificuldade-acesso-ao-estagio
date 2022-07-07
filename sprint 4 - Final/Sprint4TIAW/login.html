@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Gabriel Fernández y Castro">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"> -->
+</head>
+
+<body>
+
+    <div class="container" id="login-card">
+        <br>
+        <hr>
+        <div class="row">
+            <aside class="col-sm-4 offset-sm-4 text-center">
+                <h1><img class="navbar-brand" src="./logoTIAW.png" alt="logo"></h1>
+                <div class="card-login">
+                    <article class="card-body">
+                        <h4 class="card-title mb-4 mt-1">Faça seu login</h4>
+                        <hr>
+                        <div class="col-md-12">
+                            <select class="btn-primary" name="tipo-conta" id="tipos" onchange="trigger()">
+                                <option value="0">ESTUDANTE</option>
+                                <option value="1">EMPRESA</option>
+                            </select>
+                        </div>
+                        <div id="forms">
+                            <form action="./homePage.html" method="get" name="form"> <!--action="homePage.html" onsubmit="return validado()"-->
+                                <div class="form-group">
+                                    <input name="email" class="form-control" placeholder="email ou usuário" type="email" autocomplete="off" required>
+                                </div>
+                                <div id="email-error">email inválido</div>
+                                <div class="form-group">
+                                    <input name="password" class="form-control" placeholder="senha" type="password" required>
+                                </div>
+                                <div id="pass-error">senha inválida</div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <button class="btn btn-primary btn-block"> Login </button>  <!--<a href="./homePage.html" class="btn btn-primary btn-block"> Login </a>-->
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 text-right">
+                                        <a class="small" href="./esqueceSenha.html">Esqueceu sua senha?</a>
+                                    </div>
+                                    <a href="./cadastro.html" class="float-right btn btn-outline-primary sign-up">Criar
+                                        conta</a>
+                                </div>
+                            </form>
+                        </div>
+                    </article>
+                </div>
+            </aside>
+        </div>
+    </div>
+    <br><br><br>
+</body>

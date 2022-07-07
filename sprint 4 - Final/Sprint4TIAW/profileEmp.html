@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="profile.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <img class="navbar-brand" src="./logoTIAW.png" alt="logo">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="./homePageEmp.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item">|</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./profileEmp.html" class="nav-link">Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item">|</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./meusEstagios.html" class="nav-link">Meus estágios</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar"
+                            aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Pesquisar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 ">
+                <div class="list-group">
+                    <img class="rounded-circle" id="profile-pic"
+                        src="data:image/png;base64,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">
+                    <button id="deslog">DESLOGAR</button>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h4>Seu perfil (perfil exemplo empresa)</h4>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <form>
+                                    <div class="form-group row">
+                                        <label for="username" class="col-4 col-form-label">Nome da empresa</label>
+                                        <div class="col-8">
+                                            <input id="username" name="username" placeholder="Pontifícia Universidade Católica de Minas Gerais"
+                                                class="form-control here" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="name" class="col-4 col-form-label">Nome de usuário</label>
+                                        <div class="col-8">
+                                            <input id="name" name="name" placeholder="pucminas000"
+                                                class="form-control here" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="lastname" class="col-4 col-form-label">Tipo de empresa</label>
+                                        <div class="col-8">
+                                            <input id="lastname" name="lastname" placeholder="Universidade"
+                                                class="form-control here" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="text" class="col-4 col-form-label">Localização</label>
+                                        <div class="col-8">
+                                            <input id="text" name="text" placeholder="Belo Horizonte"
+                                                class="form-control here" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="email" class="col-4 col-form-label">Email da empresa</label>
+                                        <div class="col-8">
+                                            <input id="email" name="email" placeholder="pucminas@gmail.com" class="form-control here"
+                                                type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="publicinfo" class="col-4 col-form-label">Sobre</label>
+                                        <div class="col-8">
+                                            <textarea id="publicinfo" name="publicinfo" cols="40" rows="4"
+                                                class="form-control">A Pontifícia Universidade Católica de Minas Gerais (PUC Minas) é uma instituição de ensino superior, privada e católica brasileira situada em Belo Horizonte, capital do estado de Minas Gerais. Fundada em 1958 sob nome de Universidade Católica de Minas Gerais e o comando de Dom João Resende Costa, a PUC Minas é a maior universidade católica do mundo, reconhecida pela Congregação para Educação do Vaticano, a maior universidade do estado de Minas Gerais, com cerca de 74 mil pessoas alunos e uma das mais reconhecidas Instituições de Ensino Superior brasileiras, tendo, ao longo de sua existência, acumulado diversos prêmios.</textarea>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="offset-4 col-8">
+                                            <button name="submit" type="submit" class="btn btn-primary">Atualizar meu perfil</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <footer>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <p class="footertext">© 2022 Copyright: Trabalho Interdisciplinar -
+                <b>ICEI PUC MINAS</b>
+            </p>
+        </div>
+    </footer> -->
+</body>

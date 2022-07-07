@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="meusEstagios.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+
+    <title>Página_principal_template</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <img class="navbar-brand" src="./logoTIAW.png" alt="logo">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="./homePageEmp.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item">|</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./profileEmp.html" class="nav-link">Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item">|</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./meusEstagios.html" class="nav-link">Meus estágios</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar"
+                            aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Pesquisar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <h1>Meus estágios</h1>
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4 box border border-secondary rounded" id="ests">
+            <h5 class="center">Estágio X</h5>
+            <p>Nessa página, o empresário tem acesso aos estágios que está oferecendo</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4 box border border-secondary rounded" id="ests">
+            <h5 class="center">Setor RH</h5>
+            <p><b>Requisitos:</b></p>
+            <p>Curso: Psicologia</p>
+            <p>Período: A partir do quarto</p>
+            <p>Currículo: Apenas cursar psicologia</p>
+            <p>Carga horária: 8h</p>
+            <p>Estilo: Presencial</p>
+            <p>Salário: R$1500,00</p>
+            <p>Benefícios: VA/VR, Vale transporte</p>
+            <button id="editar-est">Editar estágio</button>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4 box border border-secondary rounded" id="ests">
+            <h5 class="center">Front-End Dev</h5>
+            <p><b>Requisitos:</b></p>
+            <p>Curso: Variados na área de TI</p>
+            <p>Período: Primeiro</p>
+            <p>Currículo: Estar cursando algum dos cursos indicados</p>
+            <p>Carga horária: 4h</p>
+            <p>Estilo: Presencial</p>
+            <p>Salário: R$800,00</p>
+            <p>Benefícios: VA/VR</p>
+            <button id="editar-est">Editar estágio</button>
+        </div>
+    </div>
+</body>
